@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ambriz Asesores | Promotoría y Desarrollo de Asesores Financieros</title>
+    <meta name="description" content="Construye tu propio negocio con libertad y propósito. Desarrollamos asesores empresarios de alto rendimiento con el respaldo de la institución líder en México.">
+    <meta name="keywords" content="Seguros, Asesor Financiero, Reclutamiento, MDRT, Ambriz Asesores, Emprender, Libertad Financiera">
+    
+    <!-- Google Fonts: Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Translucido (Logo y Navegación) -->
+    <header id="global-header">
+        <nav class="nav-container">
+            <a href="#" class="logo-link">
+                <img src="IMAGENES/LOGO/ambriz_logo.png" alt="Ambriz Asesores" id="nav-logo">
+            </a>
+            <div class="nav-links">
+                <a href="#hero-scene">Inicio</a>
+                <a href="#slogan-scene">Propósito</a>
+                <a href="#benefits-section">Beneficios</a>
+                <a href="#mdrt-section">MDRT</a>
+                <a href="#culture-section">Cultura</a>
+                <a href="#process-section">Proceso</a>
+                <a href="#contact-section" class="nav-cta">Postularme</a>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Abrir menú">
+                <i data-lucide="menu"></i>
+            </button>
+        </nav>
+        <!-- Mobile Dropdown Menu -->
+        <div class="mobile-nav-menu">
+            <a href="#hero-scene">Inicio</a>
+            <a href="#slogan-scene">Propósito</a>
+            <a href="#benefits-section">Beneficios</a>
+            <a href="#mdrt-section">MDRT</a>
+            <a href="#culture-section">Cultura</a>
+            <a href="#process-section">Proceso</a>
+            <a href="#contact-section" class="mobile-cta">Postularme</a>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- SECCIÓN 1: HERO (Video background y logo central animado) -->
+        <section id="hero-scene">
+            <div class="hero-sticky">
+                <!-- Video de fondo premium -->
+                <video autoplay muted loop playsinline id="hero-video">
+                    <source src="IMAGENES/IMAGENES/video.mov" type="video/mp4">
+                    Tu navegador no soporta reproducción de video.
+                </video>
+                <div class="hero-overlay"></div>
+                
+                <div id="hero-logo-wrap">
+                    <img src="IMAGENES/LOGO/ambriz_logo.png" alt="Promotoría Ambriz Asesores" id="hero-logo">
+                    <div class="hero-tagline">
+                        <span class="tagline-line"></span>
+                        <p>DESARROLLO DE EMPRESARIOS</p>
+                        <span class="tagline-line"></span>
+                    </div>
+                    <p class="scroll-hint">Desliza para descubrir <i data-lucide="chevrons-down"></i></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 2: SLOGAN (Efecto GSAP de revelación palabra por palabra) -->
+        <section id="slogan-scene">
+            <div class="slogan-sticky">
+                <div class="slogan-content">
+                    <h2 class="reveal-text" id="slogan-main">
+                        <span class="rw">No</span>
+                        <span class="rw">ofrecemos</span>
+                        <span class="rw">un</span>
+                        <span class="rw">empleo.</span>
+                        <span class="rw accent">Formamos</span>
+                        <span class="rw accent">empresarios</span>
+                        <span class="rw">capaces</span>
+                        <span class="rw">de</span>
+                        <span class="rw">proteger</span>
+                        <span class="rw">el</span>
+                        <span class="rw">patrimonio</span>
+                        <span class="rw">de</span>
+                        <span class="rw">las</span>
+                        <span class="rw">familias</span>
+                        <span class="rw">y</span>
+                        <span class="rw">alcanzar</span>
+                        <span class="rw accent">libertad</span>
+                        <span class="rw accent">financiera.</span>
+                    </h2>
+                    <p class="reveal-sub" id="slogan-sub">Construye una carrera de alto nivel, con total flexibilidad e ingresos exponenciales.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 3: PROPÓSITO E INSTITUCIONAL (Imagen edificio background translúcida) -->
+        <section id="purpose-section">
+            <div class="purpose-bg-wrap">
+                <img src="IMAGENES/IMAGENES/edificio.jpeg" alt="Respaldo Corporativo" class="purpose-bg-img">
+                <div class="purpose-overlay"></div>
+            </div>
+            
+            <div class="section-inner">
+                <div class="text-center-block">
+                    <p class="label-tag reveal-up">Respaldo y Solidez</p>
+                    <h2 class="reveal-text section-heading">
+                        <span class="rw">Cimientos</span>
+                        <span class="rw">firmes</span>
+                        <span class="rw">con</span>
+                        <span class="rw accent">Seguros</span>
+                        <span class="rw accent">Monterrey</span>
+                        <span class="rw accent">New</span>
+                        <span class="rw accent">York</span>
+                        <span class="rw accent">Life.</span>
+                    </h2>
+                    <p class="body-text reveal-up">
+                        En <strong>Ambriz Asesores</strong> nos asociamos con la institución líder en protección patrimonial. Respaldamos tu futuro empresarial con solidez crediticia excepcional y más de 180 años de trayectoria ininterrumpida.
+                    </p>
+                </div>
+
+                <!-- Tarjetas de Credenciales Corporativas -->
+                <div class="purpose-credentials-grid">
+                    <div class="credential-card reveal-up centered-card">
+                        <div class="cred-icon-wrap"><i data-lucide="history"></i></div>
+                        <h3>+180 Años</h3>
+                        <p class="cred-subtitle">Legado Global</p>
+                        <p class="cred-desc">Respaldados por New York Life, la aseguradora mutua más grande de EE.UU., con casi dos siglos de historia ininterrumpida de solidez y confianza global.</p>
+                    </div>
+                </div>
+
+                <!-- Reservas Técnicas e Impacto en Siniestros -->
+                <div class="purpose-solvency-row reveal-up">
+                    <div class="solvency-left">
+                        <p class="label-tag">Capacidad de Respuesta</p>
+                        <h3>Reservas Técnicas y Siniestros Pagados</h3>
+                        <p class="body-text">
+                            Contamos con las reservas técnicas más robustas del sector, garantizando que cada peso comprometido esté plenamente respaldado por activos reales y líquidos.
+                        </p>
+                        <div class="solvency-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">+$180k MDP</span>
+                                <span class="stat-label">Reservas Totales</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">+$45 MDP</span>
+                                <span class="stat-label">Siniestros Pagados / Día</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Alianzas y Reconocimientos Ribbon -->
+                <div class="purpose-awards-section">
+                    <div class="text-center-block">
+                        <p class="label-tag reveal-up">Prestigio Nacional</p>
+                        <h2 class="reveal-text section-heading">
+                            <span class="rw">Alianzas</span>
+                            <span class="rw">y</span>
+                            <span class="rw accent">Reconocimientos</span>
+                        </h2>
+                        <p class="body-text reveal-up">Nuestras soluciones y trayectoria han sido reconocidas por instituciones de excelencia y reguladoras a nivel nacional e internacional.</p>
+                    </div>
+                    
+                    <div class="awards-grid">
+                        <div class="award-logo-card reveal-up">
+                            <img src="IMAGENES/IMAGENES/logo_condusef_white.png" alt="CONDUSEF" class="award-logo-img">
+                            <p>Premios del sector</p>
+                        </div>
+                        <div class="award-logo-card reveal-up">
+                            <img src="IMAGENES/IMAGENES/logo_esr_white.png" alt="ESR" class="award-logo-img">
+                            <p>Calidad y servicio</p>
+                        </div>
+                        <div class="award-logo-card reveal-up">
+                            <img src="IMAGENES/IMAGENES/logo_ambest_white.png" alt="AM BEST" class="award-logo-img">
+                            <p>Excelencia</p>
+                        </div>
+                        <div class="award-logo-card reveal-up">
+                            <img src="IMAGENES/IMAGENES/logo_gptw_white.png" alt="Great Place To Work" class="award-logo-img">
+                            <p>Trayectoria</p>
+                        </div>
+                        <div class="award-logo-card reveal-up">
+                            <img src="IMAGENES/IMAGENES/logo_worldfinance_white.png" alt="World Finance" class="award-logo-img">
+                            <p>Innovación</p>
+                        </div>
+                        <div class="award-logo-card reveal-up">
+                            <img src="IMAGENES/IMAGENES/logo_mdrt_white.png" alt="MDRT" class="award-logo-img">
+                            <p>Compromiso</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 4: BENEFICIOS CLAVE (Grid minimalista sin tarjetas cargadas) -->
+        <section id="benefits-section">
+            <div class="section-inner">
+                <div class="text-center-block">
+                    <p class="label-tag reveal-up">La Oportunidad</p>
+                    <h2 class="reveal-text section-heading">
+                        <span class="rw">¿Por</span>
+                        <span class="rw">qué</span>
+                        <span class="rw">ser</span>
+                        <span class="rw">un</span>
+                        <span class="rw accent">Asesor</span>
+                        <span class="rw accent">Empresario?</span>
+                    </h2>
+                    <p class="body-text reveal-up">Un modelo de negocio diseñado para quienes buscan autonomía y crecimiento exponencial.</p>
+                </div>
+
+                <div class="benefits-grid">
+                    <div class="benefit-col reveal-up">
+                        <div class="benefit-icon-wrap"><i data-lucide="clock"></i></div>
+                        <h3>Libertad y Autonomía</h3>
+                        <p>Diseña tu propia agenda. Sé dueño de tu tiempo y equilibra de forma perfecta tu crecimiento profesional con tu vida familiar y personal.</p>
+                    </div>
+                    <div class="benefit-col reveal-up">
+                        <div class="benefit-icon-wrap"><i data-lucide="trending-up"></i></div>
+                        <h3>Ingresos sin Límites</h3>
+                        <p>Gana en base a tu esfuerzo. Disfruta de un esquema de comisiones del más alto nivel, bonos de desempeño y una cartera de clientes acumulativa y heredable.</p>
+                    </div>
+                    <div class="benefit-col reveal-up">
+                        <div class="benefit-icon-wrap"><i data-lucide="heart"></i></div>
+                        <h3>Propósito de Vida</h3>
+                        <p>Trascendencia real. Tu labor diaria consiste en ayudar a las familias a garantizar su retiro, asegurar su salud y proteger el futuro educativo de sus hijos.</p>
+                    </div>
+                    <div class="benefit-col reveal-up">
+                        <div class="benefit-icon-wrap"><i data-lucide="graduation-cap"></i></div>
+                        <h3>Capacitación Élite</h3>
+                        <p>Aprende de los mejores. Te certificamos y guiamos mediante programas formativos avalados a nivel nacional y entrenamientos continuos en campo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 5: MDRT (Million Dollar Round Table) -->
+        <section id="mdrt-section">
+            <div class="section-inner">
+                <div class="mdrt-wrap">
+                    <div class="mdrt-text reveal-up">
+                        <p class="label-tag">Estándar Internacional</p>
+                        <h2 class="section-heading-small">El 1% de la Élite Financiera Mundial</h2>
+                        <p class="body-text">
+                            La <strong>Million Dollar Round Table (MDRT)</strong> es la asociación global que reúne exclusivamente a los profesionales financieros y de seguros más destacados de la industria. 
+                        </p>
+                        <p class="body-text">
+                            En <strong>Promotoría Ambriz Asesores</strong>, nuestra metodología de formación y mentoría está diseñada específicamente para guiarte en el camino de calificación a este prestigioso club. Calificar significa reconocimiento mundial, conferencias internacionales y relacionarte con los líderes mundiales del sector.
+                        </p>
+                    </div>
+                    <div class="mdrt-visual reveal-up">
+                        <div class="mdrt-img-container">
+                            <img src="IMAGENES/IMAGENES/mdrt.jpeg" alt="Million Dollar Round Table Elite" id="mdrt-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 6: CULTURA Y ESTILO DE VIDA (Showroom Carrusel interactivo) -->
+        <section id="culture-section">
+            <div class="section-inner">
+                <div class="text-center-block">
+                    <p class="label-tag reveal-up">Estilo de Vida</p>
+                    <h2 class="reveal-text section-heading">
+                        <span class="rw">Nuestra</span>
+                        <span class="rw accent">Comunidad.</span>
+                        <span class="rw">Nuestros</span>
+                        <span class="rw accent">Logros.</span>
+                    </h2>
+                    <p class="body-text reveal-up">El éxito se comparte y se celebra. Te mostramos parte de nuestra cultura empresarial y convenciones.</p>
+                </div>
+
+                <!-- Carrusel de Cultura -->
+                <div id="culture-gallery">
+                    <div class="gallery-viewport">
+                        <div class="gallery-track">
+                            <div class="gallery-slide active">
+                                <img src="IMAGENES/IMAGENES/IMG_2272.jpeg" alt="Cultura Ambriz Asesores 1">
+                                <div class="slide-caption">
+                                    <h4>Trabajo en Equipo y Crecimiento</h4>
+                                    <p>Mentoría cercana y un ambiente enfocado en el desarrollo mutuo de cada asesor.</p>
+                                </div>
+                            </div>
+                            <div class="gallery-slide">
+                                <img src="IMAGENES/IMAGENES/IMG_2273.jpg" alt="Cultura Ambriz Asesores 2">
+                                <div class="slide-caption">
+                                    <h4>Reconocimientos y Galardones</h4>
+                                    <p>Premiamos la excelencia y el compromiso constante de nuestro equipo en los eventos más importantes.</p>
+                                </div>
+                            </div>
+                            <div class="gallery-slide">
+                                <img src="IMAGENES/IMAGENES/IMG_2275.jpg" alt="Cultura Ambriz Asesores 3">
+                                <div class="slide-caption">
+                                    <h4>Estilo de Vida y Convenciones</h4>
+                                    <p>Disfruta de viajes de convención nacionales e internacionales como recompensa a tu dedicación profesional.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-nav">
+                        <button class="gallery-btn active" data-idx="0">Equipo</button>
+                        <button class="gallery-btn" data-idx="1">Reconocimiento</button>
+                        <button class="gallery-btn" data-idx="2">Estilo de Vida</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 7: PROCESO DE SELECCIÓN -->
+        <section id="process-section">
+            <div class="section-inner">
+                <div class="text-center-block">
+                    <p class="label-tag reveal-up">El Camino</p>
+                    <h2 class="reveal-text section-heading">
+                        <span class="rw">Tu</span>
+                        <span class="rw">ruta</span>
+                        <span class="rw">hacia</span>
+                        <span class="rw">el</span>
+                        <span class="rw accent">arranque.</span>
+                    </h2>
+                    <p class="body-text reveal-up">Un proceso ordenado y transparente para integrarte a nuestra promotoría.</p>
+                </div>
+
+                <div class="process-steps">
+                    <div class="step-card reveal-up">
+                        <span class="step-number">01</span>
+                        <h4>Postulación</h4>
+                        <p>Completa el formulario de contacto o envíanos un mensaje directo por WhatsApp para agendar una llamada inicial.</p>
+                    </div>
+                    <div class="step-card reveal-up">
+                        <span class="step-number">02</span>
+                        <h4>Entrevista de Perfil</h4>
+                        <p>Evaluamos juntos si tu perfil y visión de negocio se alinean con nuestra carrera financiera de alto rendimiento.</p>
+                    </div>
+                    <div class="step-card reveal-up">
+                        <span class="step-number">03</span>
+                        <h4>Certificación y Capacitación</h4>
+                        <p>Te preparamos y guiamos para obtener tu cédula oficial ante la Comisión Nacional de Seguros y Fianzas (CNSF).</p>
+                    </div>
+                    <div class="step-card reveal-up">
+                        <span class="step-number">04</span>
+                        <h4>Lanzamiento del Negocio</h4>
+                        <p>Inicias tus asesorías con acompañamiento directo en campo por parte de un mentor senior asignado.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 8: CONTACTO Y POSTULACIÓN -->
+        <section id="contact-section">
+            <div class="contact-wrap">
+                <div class="contact-left">
+                    <p class="label-tag">Ponte en Contacto</p>
+                    <h2 class="reveal-text section-heading">
+                        <span class="rw">Comienza</span>
+                        <span class="rw">tu</span>
+                        <span class="rw accent">propia</span>
+                        <span class="rw accent">historia.</span>
+                    </h2>
+                    <p class="body-text reveal-up">
+                        Si tienes mentalidad emprendedora, pasión por el crecimiento y buscas una carrera con altos ingresos y propósito, compártenos tus datos. Te contactaremos a la brevedad.
+                    </p>
+                    <div class="contact-details reveal-up">
+                        <div class="detail"><i data-lucide="phone"></i> Teléfono / WhatsApp: +52 33 3847 1689</div>
+                        <div class="detail"><i data-lucide="map-pin"></i> Guadalajara, Jalisco, México</div>
+                        <div class="detail">
+                            <a href="https://www.instagram.com/ambrizasesores?igsh=a3hxb29rNmlwc3Ew" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg> Instagram: @ambrizasesores
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-right reveal-up">
+                    <form id="ambriz-contact-form">
+                        <div class="form-group">
+                            <label for="user-name">Tu Nombre</label>
+                            <input type="text" id="user-name" required placeholder="Ingresa tu nombre completo">
+                        </div>
+                        <div class="form-group">
+                            <label for="user-email">Correo Electrónico</label>
+                            <input type="email" id="user-email" required placeholder="Ingresa tu correo">
+                        </div>
+                        <div class="form-group">
+                            <label for="user-why">¿Por qué te interesa esta carrera?</label>
+                            <textarea id="user-why" rows="4" required placeholder="Cuéntanos brevemente sobre tu motivación para emprender y tu experiencia..."></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Postularme por WhatsApp <i data-lucide="arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <footer class="site-footer">
+                <img src="IMAGENES/LOGO/ambriz_logo.png" alt="Ambriz Asesores Logo" class="footer-logo">
+                <p>&copy; 2026 Promotoría Ambriz Asesores. Todos los derechos reservados.</p>
+            </footer>
+        </section>
+
+    </main>
+
+    <!-- GSAP & ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <!-- Script de lógica -->
+    <script src="app.js"></script>
+</body>
+</html>
